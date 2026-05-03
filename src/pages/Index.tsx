@@ -46,7 +46,7 @@ export default function Index() {
         <header className="flex items-center justify-between px-6 py-5 backdrop-blur-sm bg-black/20 border-b border-white/10 sticky top-0 z-20">
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 bg-green-500 rounded flex items-center justify-center text-white font-bold text-sm">М</div>
-            <span className="text-white font-bold text-xl tracking-wide">Сборка Ваничкина</span>
+            <span className="text-white font-bold text-xl tracking-wide">СБОРКА ВАНИЧКИНА 2026</span>
           </div>
           <nav className="hidden md:flex gap-6">
             {(['about', 'gallery', 'download'] as const).map((s) => (
