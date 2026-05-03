@@ -72,7 +72,7 @@ export default function Index() {
             <span className="text-green-400">Ваничкина</span>
           </h1>
           <p className="text-white/70 text-lg md:text-xl max-w-lg mb-8">
-            Тщательно подобранная сборка модов для идеального Minecraft-приключения. Шейдеры, новые биомы, мобы и механики — всё в одном.
+            Эта сборка вас поразит!!! С её помощью можно будет добавить моды блогера Вани — но только первые, потом будут ещё. В Майнкрафт модов где-то 7–8 — это будет очень круто. Удачной игры!
           </p>
           <div className="flex gap-3 flex-wrap justify-center">
             <button
