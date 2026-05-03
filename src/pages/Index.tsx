@@ -10,6 +10,7 @@ const versions = [
   { label: '1.18.2', file: '#', tag: null },
   { label: '1.16.5', file: '#', tag: 'Классика' },
   { label: '1.12.2', file: '#', tag: null },
+  { label: '1.7.10', file: 'vanyai-1.7.10.zip', tag: 'Ваня' },
 ]
 
 const screenshots = [
