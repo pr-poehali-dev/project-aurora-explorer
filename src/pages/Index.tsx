@@ -14,8 +14,32 @@ const versions = [
 
 const screenshots = [
   {
-    src: 'https://cdn.poehali.dev/projects/5c35c647-ce4d-4286-a2aa-8bed6b7e23fe/files/cf961792-2c35-4227-8b1e-1a45bbeb4b73.jpg',
-    alt: 'Скриншот сборки Ваничкина — лес и деревня',
+    src: 'https://cdn.poehali.dev/projects/5c35c647-ce4d-4286-a2aa-8bed6b7e23fe/bucket/96e6b956-12c3-40af-9d99-90e2d2122e94.png',
+    alt: 'Скриншот 1 — каменные блоки',
+  },
+  {
+    src: 'https://cdn.poehali.dev/projects/5c35c647-ce4d-4286-a2aa-8bed6b7e23fe/bucket/b801d105-49d2-4ef1-b364-d46f4d0bfedb.png',
+    alt: 'Скриншот 2 — деревянная башня',
+  },
+  {
+    src: 'https://cdn.poehali.dev/projects/5c35c647-ce4d-4286-a2aa-8bed6b7e23fe/bucket/a0a62a5a-fd09-442f-93b6-9dd2fc369057.png',
+    alt: 'Скриншот 3 — разноцветные торты',
+  },
+  {
+    src: 'https://cdn.poehali.dev/projects/5c35c647-ce4d-4286-a2aa-8bed6b7e23fe/bucket/995698db-261b-4dc0-b666-43ef9e5e21e6.png',
+    alt: 'Скриншот 4 — цветная постройка',
+  },
+  {
+    src: 'https://cdn.poehali.dev/projects/5c35c647-ce4d-4286-a2aa-8bed6b7e23fe/bucket/eb38a02b-fd7b-4c38-9c25-d018a36574d2.png',
+    alt: 'Скриншот 5 — мебель и мобы',
+  },
+  {
+    src: 'https://cdn.poehali.dev/projects/5c35c647-ce4d-4286-a2aa-8bed6b7e23fe/bucket/842ccded-0aa6-43d3-8510-59227475d593.png',
+    alt: 'Скриншот 6 — двери и арки',
+  },
+  {
+    src: 'https://cdn.poehali.dev/projects/5c35c647-ce4d-4286-a2aa-8bed6b7e23fe/bucket/838af705-6a44-42c9-8152-278c08eb01c3.png',
+    alt: 'Скриншот 7 — скины персонажей',
   },
 ]
 
@@ -150,10 +174,7 @@ export default function Index() {
                   className="w-full h-52 object-cover rounded-xl border border-white/10 hover:scale-[1.02] transition-transform cursor-pointer"
                 />
               ))}
-              <div className="h-52 rounded-xl border border-dashed border-white/20 flex flex-col items-center justify-center gap-2 text-white/30">
-                <Icon name="ImagePlus" size={32} />
-                <span className="text-sm">Ещё скриншоты скоро</span>
-              </div>
+
             </div>
           </div>
         </section>
